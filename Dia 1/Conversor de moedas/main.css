@@ -1,0 +1,64 @@
+body {
+    font-family: "Times", monospace;
+    text-align: center;
+    background-image: url("https://c0.wallpaperflare.com/preview/1017/538/491/money-finance-bank-cash.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 250px;
+  }
+  
+  button {
+    margin-top: 30px;
+    margin-left: 0px;
+    background-color: #e33d3d;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 32px;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 4px;
+    transition: all 300ms ease-in-out;
+  }
+  
+  button:hover {
+    padding: 10px;
+    margin-top: 24px;
+    background-color: #fc5d5d;
+  }
+  

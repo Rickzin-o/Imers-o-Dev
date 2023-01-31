@@ -1,0 +1,87 @@
+body {
+    font-family: "Comic Sans MS";
+    text-align: center;
+    background-image: url("https://img.freepik.com/premium-photo/4k-hd-wallpaper-computer-desktop-with-dark-aesthetic-dope-trippy-wallpapers-cute-girls_12929-270.jpg?w=360");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 350px;
+  }
+  
+  .tentativas {
+    color: #ffffff;
+    font-size: 32px;
+    margin-top: 10px;
+  }
+  
+  input {
+      padding: 4px;
+      margin-right: 8px;
+      border-radius: 8px;
+      border: none;
+  }
+  
+  button {
+    background: #f21b1b;
+    border-radius: 6px;
+      border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: 0;
+    padding: 8px;
+    text-align: center;
+      transition: all 200ms ease-in-out
+  }
+  
+  button:hover,
+  button:active {
+    background-color: #ffffff;
+    color: #f21b1b;
+  }
+  
+  button:active {
+    opacity: 50%;
+  }
+  
+  button:hover {
+      padding: 12px;
+      margin-top: -4px;
+      margin-left: -4px;
+      margin-right: -4px;
+      margin-bottom: -4px;
+  }
