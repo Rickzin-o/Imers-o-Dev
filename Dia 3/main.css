@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+body {
+  font-family: "Press Start 2P", monospace;
+  font-size: 16px;
+  text-align: center;
+  background-image: url("https://images.hdqwalls.com/download/synthwave-sun-mountains-4k-op-1920x1080.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+}
+
+.game-banner {
+  max-width: 320px;
+  border-radius: 20px;
+  transition: all 200ms cubic-bezier(0.21, -0.18, 0.18, 1.83);
+}
+
+.game-banner:hover,
+.game-banner:active {
+  transform: scale(1.1);
+  animation: 2s balancar 200ms linear forwards infinite;
+}
+
+.game-banner:active {
+  opacity: 70%;
+}
+
+@keyframes balancar {
+  0% {
+    transform: scale(1.1);
+  }
+  25% {
+    transform: rotate(-3deg) scale(1.1);
+  }
+  75% {
+    transform: rotate(3deg) scale(1.1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.game-block {
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+}
+
+.game-group {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+label {
+  display: block;
+  font-family: "Press Start 2P";
+  margin: 0 auto;
+  color: #ffffff;
+  padding: 8px;
+  font-size: 16px;
+}
+
+#previous,
+#next {
+  background: #ffffff;
+}
